@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id 'kotlin-android'
-    id 'com.google.secrets_gradle_plugin' version( '0.4')
+    id 'com.google.secrets_gradle_plugin' version('0.4')
 }
 android {
     namespace 'com.nearpays.nearpays'
@@ -58,9 +58,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
-//    implementation project(':NearpaysNfcSdk')
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation project(':NearpaysNfcSdk')
 
-    implementation 'com.github.Kariaki:Nearpays:2.0'
 }
