@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#043F2E</color>
+    <color name="purple_500">#043F2E</color>
+    <color name="purple_700">#043F2E</color>
+    <color name="teal_200">#043F2E</color>
+    <color name="teal_700">#043F2E</color>
+    <color name="black">#2E312F</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#043F2E</color>
+    <color name="accent">#5DAF60</color>
+    <color name="textColor">#6A706C</color>
+    <color name="textColorGray">#788B87</color>
+    <color name="dividerColor">#646A706C</color>
+    <color name="inputFieldBoxBackgroundColor">#F2F4F6</color>
+    <color name="infoBackgroundColor">#F2F4F7</color>
+</resources>

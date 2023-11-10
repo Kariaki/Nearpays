@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Nearpays"
 include ':app'
+include ':NearpaysNfcSdk'

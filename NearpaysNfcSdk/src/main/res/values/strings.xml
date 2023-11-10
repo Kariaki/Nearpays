@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">NearPays</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_your_category">Choose your Category</string>
+    <string name="download_receipt"><u>Download Receipt </u></string>
+    <string name="help_support"><![CDATA[Help & Support]]></string>
+    <string name="still_need_help_reach_out_to_07009332212_or_support_nearpays_com">Still need help reach out to <font fgcolor="#5DAF60">07009332212</font> or  <font fgcolor="#5DAF60">support@nearpays.com</font></string>
+    <string name="let_s_know_">
+Let know you better!
+</string>
+    <string name="donthaveanaccount">Don\'t have an account? <font fgcolor="#5DAF60">Get Started</font> </string>
+    <string name="haveauniquecode">Have a unique code? <font fgcolor="#5DAF60">Click here</font> </string>
+    <string name="alreadyHaveAnAccount"><font fgcolor="#6A706C">Already have an account?</font> <font fgcolor="#5DAF60">Login</font> </string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="question">Question</string>
+    <string name="please_enter_the_otp_code_that_was_sent_to_your_phone_number">Please enter the OTP code that was sent to your phone number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="see_all">See all</string>
+    <string name="search_by_name">Search by name</string>
+    <string name="enter_amount_n">Enter Amount (₦)</string>
+    <string name="you_can_only_transfer_cash_to_your_registered_bank_account_and_this_will_attract_a_n5_00_charge">You can only transfer cash to your registered bank account, and this will attract a N5.00 charge.</string>
+    <string name="transfer_cash">Transfer Cash</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="tyour_information_is_secured">\tYour information is secured.</string>
+    <string name="step_3_of_3">Step 3 of 3</string>
+    <string name="proceed_to_login">Proceed to Login</string>
+    <string name="proceed_to_swipe_card">Proceed to swipe card</string>
+    <string name="monipoint_limited">Monipoint Limited</string>
+    <string name="kindly_swipe_card_behind_the_phone_camera_as_seen_in_the_video_below">Kindly swipe card behind the phone as seen in the video below</string>
+    <string name="confirm">Confirm</string>
+    <string name="nameWithEmoji">
+Hello \u00F0\u009F\u0091\u008B\u00F0\u009F\u008F\u00BC, Welcome
+
+</string>
+    <string name="valid_n_thru">Valid \n thru</string>
+    <string name="let_s_get_you_started_tap_on_the_place_order_button_to_purchase_an_nfc_enabled_device">Let\'s get you started. Tap on the place order button to purchase an NFC-enabled device.</string>
+    <string name="benefit_of_getting_an_nfc_enabled_device">Benefit of getting an NFC-enabled device.</string>
+    <string name="tcharge_and_debit_nfc_enabled_cards_with_your_smartphone">\tCharge and debit NFC-enabled cards with your smartphone</string>
+    <string name="tcharge_and_debit_nfc_enabled_cards_with_you_smartphone">\tCharge and debit NFC-enabled cards with your smartphone</string>
+    <string name="place_order">Place Order</string>
+    <string name="address">Address</string>
+    <string name="lga">LGA</string>
+    <string name="state">State</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="kindly_provide_the_following_details_to_enable_us_get_your_device_to_you">Kindly provide the following details to enable us get your device to you.</string>
+    <string name="your_smartphone_becomes_your_pos_terminal">Your smartphone becomes your POS Terminal</string>
+    <string name="nfc_enable">Let\'s get you started. Tap on the placerder button to purhcase and NFC-enabled device.</string>
+    <string name="your_device_is_not_nfc_enabled_ntap_on_the_place_order_button_to_purchase_an_nfc_enabled_device">Your device is not NFC enabled. Tap on the place order button to purchase an NFC enabled device..</string>
+    <string name="make_sure_the_image_is_clear_to_read_without_no_blur">Make sure the image is clear to read without no blur.</string>
+    <string name="supported_formats_png_jpeg_pdf">Supported formats: png, jpeg, pdf.</string>
+    <string name="bank_name">Bank name</string>
+
+    <string name="login">Login</string>
+    <string name="password_reset_successful">Password reset successful</string>
+    <string name="it_should_take_a_short_time_we_ll_let_you_know_once_it_s_complete">It should take a short time. We will let you know once it is complete</string>
+    <string name="Ok">Ok</string>
+    <string name="we_re_verifying_your_bvn">We’re verifying your Documents</string>
+    <string name="identity_information">Identity Information</string>
+    <string name="your_information_is_secured">Your information is secured.</string>
+    <string name="upload_cac_document">Upload CAC Document</string>
+    <string name="cac_png">CAC.png</string>
+    <string name="issuance_date">Issuance date</string>
+    <string name="identification_number">Identification number</string>
+    <string name="update_and_continue">Update and Continue</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="identification_type">Identification type</string>
+    <string name="please_keep"> Please, keep a straight face.</string>
+    <string name="wearing_glasses_make_sure_we_can_clearly_see_your_eyes">Wearing glasses? Make sure we can clearly see your eyes.</string>
+    <string name="to_perform_any_transaction_on_nearpays_you_would_need_to_complete_your_kyc">To perform any transaction on Nearpays you would need to complete your KYC.</string>
+    <string name="resend_code">Resend code</string>
+    <string name="face_the_camera_ensure_your_face_is_within_the_frame">Face the camera. Ensure your face is within the frame.</string>
+
+
+    <style name="keys">
+        FLWPUBK_TEST-c0ed946db702b3787052caa46ad55637-X PUBLIC
+        FLWSECK_TEST-cf9005d95931a41d674466e592a86e75-X SECRET
+        FLWSECK_TESTf9d339d22928 ENCRYPTION
+    </style>
+</resources>
