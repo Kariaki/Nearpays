@@ -11,12 +11,11 @@ android {
 
     defaultConfig {
         applicationId "com.nearpays.nearpays"
-        minSdk 19
+        minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
-        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary true
@@ -30,8 +29,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
         jvmTarget = '1.8'
@@ -51,10 +50,10 @@ android {
 }
 
 dependencies {
-    def multidex_version = "2.0.1"
-    implementation "androidx.multidex:multidex:$multidex_version"
+
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
+    implementation 'androidx.compose.material:material:1.1.1'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
@@ -62,6 +61,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation project(':NearpaysNfcSdk')
-    //implementation 'com.github.Kariaki:Nearpays:1.4'
 
 }
