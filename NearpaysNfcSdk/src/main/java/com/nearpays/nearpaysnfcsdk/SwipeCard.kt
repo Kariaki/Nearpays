@@ -14,10 +14,9 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.gson.Gson
 import com.nearpays.nearpaysnfc.CardDetails
 import com.nearpays.nearpaysnfcsdk.databinding.FragmentSwipeCardBinding
-import com.pro100svitlo.creditCardNfcReader.CardNfcAsyncTask
-import com.pro100svitlo.creditCardNfcReader.CardNfcAsyncTask.CardNfcInterface
+import com.nearpays.nearpaysnfcsdk.handler.CardNfcAsyncTask
 
-class SwipeCard : Fragment(), View.OnClickListener, CardNfcInterface {
+class SwipeCard : Fragment(), View.OnClickListener, CardNfcAsyncTask.CardNfcInterface {
 
     lateinit var binding: FragmentSwipeCardBinding
     private lateinit var mNfcAdapter: NfcAdapter
