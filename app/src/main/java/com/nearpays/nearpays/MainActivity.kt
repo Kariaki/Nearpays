@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         Intent(this,NfcScannerActivity::class.java)
             .apply {
-                putExtra("camera",true)
+                putExtra("camera",false)
             }.also {
             startActivity(it)
         }
